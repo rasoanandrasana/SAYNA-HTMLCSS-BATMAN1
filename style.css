@@ -1,0 +1,260 @@
+
+@font-face{
+    font-family: ;
+}
+:root{
+    --yellow-color:#FFFF00;
+    --yellow-light:#F8F184;
+    --blue-color:#19587d;
+    --white-color:#fff
+    --gradient-white:#EDDEBF;
+    --gradient-red:#890008;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+
+}
+h1{
+    font-family: ;
+    font-size: 36px;
+    font-weight: 400;
+}
+button{
+    font-family: ;
+    font-size: 20px;
+    font-weight: 400;
+}
+.container{
+    margin: 0 auto ;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: ;
+    font-weight: 300;
+}
+/*Designe de la navigation*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;   
+}
+ul{
+    list-style: none;
+}
+nav ul a{
+    color: var(--white-color);
+    font-size:30px ;
+    font-weight: 500;
+    font-family: ;
+    /* text-decoration:none; */
+}
+nav ul a:hover{
+    color: var(--yellow-color);
+}
+/*Design de la partie en tete hero*/
+#hero{
+    background-image: url(./Illustrations/Bathome1.png);
+    height: 800px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #19587d;background-size: cover;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        flex-direction:column ;
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+       
+    }
+    #hero .texte{
+        margin-top: 50%;
+    }
+    #hero .titre{
+        margin: 20px 0;
+    }
+    #hero.cta{
+        display: flex;
+     }
+     #button1{
+        height: 65px;
+        margin-top: 10px;
+     }
+    #hero .fleche{
+        display: block;
+        margin: 0 auto;
+        margin-top: 10%
+    
+    }
+    
+    
+    .scroll {
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+        position: fixed;
+        right: 80px;
+        top:240px
+    }
+    .scroll .social{
+        margin-top: 15px;
+    }
+    
+/*Designe de la section batman personnage*/
+    #batman-cinema{
+        margin-top: 40px;
+}
+.batman-personnage{
+    display: flex;
+    justify-content: space-between;
+}
+#batman-cinema .titre,#batman-justice .titre,#batman-nemesis .titre,#batman-alliee .titre{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 30px 0;
+    font-weight: bold;
+}
+/* #batman-cinema .description,#batman-justice-league .description,#batman-nemesis .description,#batman-alliee .description{
+    margin-bottom:40px ;
+    text-align: justify;
+    width: 80% ;
+    font-size: 21px ;
+} */
+#batman-cinema .personnage-info{
+    text-align: center;
+}
+#batman-cinema .bathome13{
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.nemesis-personnage{
+    display: flex;
+    justify-content: space-between;
+}
+#batman-nemesis .personne{
+    text-align: center;
+}
+#batman-nemesis .bathome12{
+    width: 40%;
+    margin-left: 60%;
+}
+.alliee-personnage{
+    display: flex;
+    justify-content: space-between;
+}
+#batman-alliee .personnage2{
+    text-align: center;
+}
+#batman-justice-league{
+    margin-top: 10%;
+}
+
+#multimedia .slider-multimedia{
+    display: flex;
+    width: 60%;
+    margin: 40px auto;
+}
+#multimedia .slider-image{
+    width: 10%;
+}
+.slider-content p{
+    width: 200%;
+}
+
+   
+#multimedia p{
+    display: flex;
+}
+
+
+#guillemet p{
+    text-align: center;
+}
+.logos1{
+    margin-left: 10%;
+}
+.dark{
+    text-align: center;
+}
+.logos2{
+    margin-left: 80%;
+}
+.icon_wb{
+    display: flex;
+    font-size: 80%;
+ align-items: center;
+ margin-left: 10%;
+ margin-bottom: 10%;
+}
+.logos3{
+    align-items: center;
+}
+#contact{
+    background-color:#33424b;
+    padding: 70px 0;
+}
+#contact .form{
+    width: 50%;
+    margin: 0 auto;
+
+}
+#contact h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 32px;
+
+}
+#contact .titre{
+    display: block;
+    margin: 28px 0;
+}
+#contact .form input[type= "email"]{
+    
+}
+#BAT2{
+    /* margin-right: 200px; */
+}
+#BAT3{
+    margin-right: 200px;
+}
+.titre{
+    margin-top: 100px;
+}
+#nem2{
+    
+}
+#nem3{
+    margin-right: 200px;
+}
+#desc{
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: justify;
+    width: 80%;
+}
+#nems{
+    text-align: justify;
+    width: 80%;
+    font-size: 18PX;
+}
+#ALL{
+    text-align: justify;
+    width: 80%;
+    font-size: 18px;
+}
+#JUST{
+    text-align: justify;
+    width: 80%;
+    font-size: 18PX;
+}
+
+
+
+
